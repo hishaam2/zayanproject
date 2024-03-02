@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chizen Itza</title>
+    <style>
+      body {
+        background-color: #ffd700; /* Mustard Yellow */
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1,
+      p {
+        color: #333; /* Dark Text Color */
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto; /* Center the image and add margin */
+      }
+
+      button {
+        background-color: #0800fa; /* Orange-Red */
+        color: #fff; /* White Text Color */
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Petra</h1>
+    <p>
+      Petra is a vast, rose-red city carved into the sandstone cliffs of Jordan.
+      It is one of the most famous archaeological sites in the world and is a
+      UNESCO World Heritage Site. Petra was the capital of the Nabataean
+      Kingdom, which flourished from the 1st century BC to the 2nd century AD.
+      The Nabataean Arabs were skilled traders and Petra became a major trading
+      center on the Silk Road.
+    </p>
+    <img src="images/petra.jpeg" alt="petra" />
+    <button onclick="window.location.href='SevenWonders.html'">
+      Home Page
+    </button>
+
+    <!-- Add this script to the end of the body or in the head -->
+    <script>
+      // You can also place this script in a separate JavaScript file.
+      document.querySelector("button").addEventListener("click", function () {
+        window.location.href = "SevenWonders.html";
+      });
+    </script>
+  </body>
+</html>
