@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seven Wonders</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        /* Remove position: fixed; */
+      }
+      area {
+        outline: 5px solid red;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="images/seven-wonders.png"
+      alt="seven-wonders"
+      usemap="#imageMap"
+    />
+    <map name="imageMap">
+      <!-- line1 -->
+      <area
+        shape="rect"
+        coords="40,190,200,400"
+        href="ChizenItza.html"
+        alt="Clickable Area 1"
+        tabindex="0"
+      />
+      <area
+        shape="rect"
+        coords="290,170,450,380"
+        href="colosseum.html"
+        alt="Clickable Area 2"
+        tabindex="0"
+      />
+      <area
+        shape="rect"
+        coords="510,120,670,330"
+        href="petra.html"
+        alt="Clickable Area 2"
+        tabindex="0"
+      />
+      <area
+        shape="rect"
+        coords="770,120,930,330"
+        href="greatwall.html"
+        alt="Clickable Area 2"
+        tabindex="0"
+      />
+      <!-- line 2 -->
+      <area
+        shape="rect"
+        coords="120,400,280,610"
+        href="machu.html"
+        alt="Clickable Area 1"
+        tabindex="0"
+      />
+      <area
+        shape="rect"
+        coords="340,400,500,610"
+        href="christ.html"
+        alt="Clickable Area 1"
+        tabindex="0"
+      />
+      <area
+        shape="rect"
+        coords="640,320,800,530"
+        href="taj.html"
+        alt="Clickable Area 1"
+        tabindex="0"
+      />
+    </map>
+  </body>
+</html>
